@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./styles/normalize.css" rel="stylesheet" type="text/css"/>
+  <link class="change" href="./styles/dark.css" rel="stylesheet" type="text/css" />
+  <link href="./styles/share-styles.css" rel="stylesheet" type="text/css" />
+  <title>Calc</title>
+</head>
+
+<body>
+  <section>
+
+    <article class="top">
+      <p class="text-calc">calc</p>
+      <p class="text-theme">THEME</p>
+      <div class="theme-change">
+        <pre class="text-num">1 2 3</pre>
+        <div class="tri-state-toggle">
+          <input class="button first-button" type="radio" name="toggle" />
+          <input class="button" type="radio" name="toggle" />
+          <input class="button" type="radio" name="toggle" />
+        </div>
+      </div>
+    </article>
+
+    <article class="display">
+      <div class="row1-display"></div>
+      <div class="row2-display"></div>
+    </article>
+
+    <article class="keyboard">
+      <div class="keyboard-num">
+        <button class="zero key-num key-all">0</button>
+        <button class="one key-num key-all">1</button>
+        <button class="two key-num key-all">2</button>
+        <button class="three key-num key-all">3</button>
+        <button class="four key-num key-all">4</button>
+        <button class="five key-num key-all">5</button>
+        <button class="six key-num key-all">6</button>
+        <button class="seven key-num key-all">7</button>
+        <button class="eight key-num key-all">8</button>
+        <button class="nine key-num key-all">9</button>
+        <button class="div key-op key-all">/</button>
+        <button class="mult key-op key-all">x</button>
+        <button class="subt key-op key-all">-</button>
+        <button class="add key-op key-all">+</button>
+        <button class="dot key-num key-all">.</button>
+        <button class="del key-del-reset key-all">DEL</button>
+      </div>
+      <div class="keyboard-equal-reset">
+        <button class="reset key-del-reset key-all">RESET</button>
+        <button class="key-equal key-all">=</button>
+      </div>
+    </article>
+  </section>
+  <script src="./scripts/main.js" type="module"></script>
+</body>
+
+</html>

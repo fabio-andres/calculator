@@ -1,0 +1,225 @@
+body {
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+section {
+    width: 436px;
+    height: 574px;
+}
+
+/*top shared styles */
+.top {
+    height: 55px;
+    width: 354px;
+    margin-bottom: 21px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-calc {
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.text-theme {
+    position: relative;
+    top: 24px;
+    left: 95px;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.theme-change {
+    position: relative;
+    top: 5px;
+}
+
+.text-num {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.tri-state-toggle {
+    height: 20px;
+    width: 44px;
+    position: relative;
+    bottom: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.button {
+    height: 14px;
+    width: 14px;
+    position: relative;
+    top: 3px;
+    appearance: none;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+/*al iniciar la app permite mostrar en pantalla el primer checkbox con un check  */
+.first-button {
+    opacity: 1;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+/* display shared styles */
+.display {
+    height: 84px;
+    width: 354px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+}
+
+.row1-display{
+    height: 14px;
+    position: relative;
+    top: 12px;
+    right: 12px;
+}
+
+.row2-display{
+    height: 28px;
+    position: relative;
+    top: 24px;
+    right: 12px;
+}
+
+/*keyboard shared styles */
+.keyboard {
+    height: 315px;
+    width: 354px;
+    display: grid;
+    place-content: center;
+    border-radius: 10px;
+}
+
+.key-all {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2.2rem;
+    /* efecto boton 3d */
+    transition: all 0.1s;
+}
+
+/* efecto boton presionado 3d*/
+.key-all:active{
+    position:relative;
+    top:4px;
+  }
+
+.keyboard-num {
+    height: 218px;
+    width: 317px;
+    margin-bottom: 21px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 21px 21px;
+    grid-template-areas:
+        "nine eight seven del"
+        "four five  six   add"
+        "one  two   three subt"
+        "dot  zero  div   mult";
+}
+
+.nine {
+    grid-area: nine;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.zero {
+    grid-area: zero;
+
+}
+
+.div {
+    grid-area: div;
+}
+
+.mult {
+    grid-area: mult;
+}
+
+.add {
+    grid-area: add;
+}
+
+.del {
+    grid-area: del;
+}
+
+.dot {
+    grid-area: dot;
+}
+
+.subt {
+    grid-area: subt;
+}
+
+.keyboard-equal-reset {
+    height: 41px;
+    width: 317px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 21px;
+    grid-template-areas:
+        "reset equal";
+}
+
+.reset {
+    grid-area: reset;
+}
+
+.key-equal {
+    grid-area: equal;
+}

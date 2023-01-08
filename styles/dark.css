@@ -1,0 +1,104 @@
+:root {
+    --color-bg: #3b4664;
+    --color-top-text: white;
+    --color-toggleBg-keyboard: #252d44;
+    --color-toggle-button: #d13f30;
+    --color-key-num: #eae3db;
+    --color-key-num-3d: #b2a499;
+    --color-key-num-text: #252d44;
+    --color-key-del-reset: #647299;
+    --color-key-del-reset-3d: #414e70;
+    --color-key-del-reset-equal-text: white;
+    --color-key-equal: #d13f30;
+    --color-key-equal-3d: #93271a;
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body{
+    background-color: var(--color-bg);
+}
+
+/*top dark styles */
+.tri-state-toggle {
+    background-color: var(--color-toggleBg-keyboard);
+}
+
+.button {
+    background-color: var(--color-toggle-button);
+}
+
+.text-calc {
+    color: var(--color-top-text); 
+}
+
+.text-theme {
+    color: var(--color-top-text);
+}
+
+.text-num{
+    color: var(--color-top-text);
+}
+
+
+/*display dark styles */
+.display {
+    background-color: #181f32;
+    color: white;
+    font-weight: bold;
+    text-align:right;
+}
+
+.row1-display{
+    font-size: 20px;
+}
+
+.row2-display{
+    font-size: 30px;
+}
+
+/*keyboard dark styles */
+.keyboard {
+    background-color: var(--color-toggleBg-keyboard);
+}
+
+.key-num, 
+.key-op {
+    background-color: var(--color-key-num);
+    color: var(--color-key-num-text);
+    /* efecto boton 3d */
+    border: solid 1px var(--color-key-num-3d);
+    box-shadow: 0px 6px 0px var(--color-key-num-3d);
+
+}
+
+/*efecto boton presionado */
+.key-num:active{
+    box-shadow: 0px 2px 0px var(--color-key-num-3d);
+  }
+
+.key-del-reset {
+    background-color: var(--color-key-del-reset);
+    color: var(--color-key-del-reset-equal-text);
+    /* efecto boton 3d */
+    border: solid 1px var(--color-key-del-reset-3d);
+    box-shadow: 0px 6px 0px var(--color-key-del-reset-3d);
+}
+
+/*efecto boton presionado */
+.key-del-reset:active{
+    box-shadow: 0px 2px 0px var(--color-key-del-reset-3d);
+  }
+
+.key-equal {
+    background-color: var(--color-key-equal);
+    color: var(--color-key-del-reset-equal-text);
+    /* efecto boton 3d */
+    border: solid 1px var(--color-key-equal-3d);
+    box-shadow: 0px 6px 0px var(--color-key-equal-3d);
+}
+
+/*efecto boton presionado */
+.key-equal:active{
+    box-shadow: 0px 2px 0px var(--color-key-equal-3d);
+  }
