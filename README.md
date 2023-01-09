@@ -3,7 +3,7 @@ this is a calculator. this is a challenge solved from www.frontenmentor.io
 
 ## Preview
 
-![](https://github.com/fabio-andres/form-credit-card/blob/master/Captura%20de%20pantalla%202022-08-24%20232050.png)
+![](https://github.com/fabio-andres/calculator/blob/main/Captura%20de%20pantalla%202023-01-08%20213438.png)
 
 ## Getting Started 🚀
 
