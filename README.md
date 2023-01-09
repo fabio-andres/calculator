@@ -1,5 +1,5 @@
 # calculator
-this is a calculator. this is a challenge solved from www.frontenmentor.io
+this is a calculator. this is a challenge solved from www.frontendmentor.io
 
 ## Preview
 
