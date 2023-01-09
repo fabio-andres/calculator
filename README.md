@@ -1,4 +1,4 @@
-# calculator - fontendmentor challenge
+# calculator - frontendmentor challenge
 this is a calculator. this is a challenge solved from www.frontendmentor.io
 
 ## Preview
