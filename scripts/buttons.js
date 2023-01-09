@@ -90,8 +90,8 @@ function displayNum(display, evElement) {
 }
 
 function insertarComasResultado(resOp) {
-    //si el resultado tiene 2 digitos entonces retornarlo tal como esta
-    if (resOp.length === 3) {
+    //si el resultado no debe tener coma retornarlo tal cual
+    if (resOp.length === 1 || resOp.length === 2 || resOp.length === 3 ) {
         return resOp
     }
     //si el resultado es de 4 digitos añade automaticamente un coma
@@ -140,7 +140,8 @@ function insertarComasResultado(resOp) {
         let numWithFirstComma = insertarCaracter(resOp, ",", 3)
         let numWithSecondComma = insertarCaracter(numWithFirstComma, ",", 7)
         return insertarCaracter(numWithSecondComma, ",", 11)
-    }else{
+    }
+    else if (resOp.length > 12) {
         return "result is too big"
     }
 }
