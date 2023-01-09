@@ -7,4 +7,4 @@ this is a calculator. this is a challenge solved from www.frontenmentor.io
 
 ## Getting Started 🚀
 
-[click here to see the project](https://fabio-andres.github.io/form-credit-card/)
+[click here to see the project](https://fabio-andres.github.io/calculator/)
